@@ -1,4 +1,7 @@
-<h1 aling="left">Course objective:</h1>
+## Course offered by Instituto Tecnológico de Aeronáutica (ITA)
+#### Duration: 50 hours
+
+<h4 aling="left">Course objective:</h4>
 <p align="justify">
   The Java concepts presented in this course include the following: a review of basic object-oriented
   concepts such as classes, objects, methods, and attributes, instance and class variables; responsibilities,
