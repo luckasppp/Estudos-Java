@@ -7,13 +7,13 @@ public class Compra {
     // à vista
     public Compra(int valor) {
         this.valorTotal = valor;
-        numeroParcelas = 1;
+        this.numeroParcelas = 1;
     }
 
     // parcelado
     public Compra(int qtdParcelas, int valorParcela) {
-        numeroParcelas = qtdParcelas;
-        valorTotal = valorParcela * qtdParcelas;
+        this.numeroParcelas = qtdParcelas;
+        this.valorTotal = valorParcela * qtdParcelas;
     }
 
     public int getValorTotal() {

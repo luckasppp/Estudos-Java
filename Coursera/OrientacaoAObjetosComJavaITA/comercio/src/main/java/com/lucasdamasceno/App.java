@@ -8,6 +8,9 @@ public class App
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+
+        Compra compra1 = new Compra(250);
+        System.out.println(compra1.getValorTotal());
+
     }
 }
