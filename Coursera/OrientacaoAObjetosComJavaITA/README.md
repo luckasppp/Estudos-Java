@@ -13,3 +13,6 @@
   Demeter." Whenever convenient, each concept will be represented through UML diagrams. You will be exposed to
   properties and annotations in Java.
 </p>
+
+<h5>Certificate of Completion: <a href="https://github.com/luckasppp/Estudos-Java/blob/main/Coursera/OrientacaoAObjetosComJavaITA">Orientação a Objetos Com Java ITA</a></h5>
+
