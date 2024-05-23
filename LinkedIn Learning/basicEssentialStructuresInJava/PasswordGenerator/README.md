@@ -1,9 +1,12 @@
-## Course offered by LinkedIn Learning
-#### Duration: 3 hours and 20 minutes
+## Password Generator
+#### A Java password generator project creates secure and random passwords that can be used to protect online accounts, files, or any other resource that requires security. This program typically allows the user to specify complexity criteria, such as:
 
-<h4 aling="left">About the Course:</h4>
+<!-- > - Password length -->
+> - Inclusion of uppercase and lowercase letters
+> - Inclusion of numbers
+> - Inclusion of special characters
+
+<!-- <h4 aling="left">About the Password Generator:</h4>
 <p align="justify">
-Broaden and expand your programming skills with this eminently practical course, where you will delve into the functioning of the basic structures of languages, especially Java. Learn about the main method, variables, conditional structures, loops, best practices, and other key concepts, and take it one step further on your path to mastering software development.
-</p>
-
-<h5>Certificate of Completion: <a href="https://github.com/luckasppp/Estudos-Java/edit/main/LinkedIn%20Learning/basicEssentialStructuresInJava/">Basic Essential Structures In Java</a></h5>
+The program uses Java libraries to generate passwords that meet these criteria, ensuring the creation of robust and hard-to-crack passwords. It is a useful tool for enhancing the digital security of users and systems.
+</p> -->
