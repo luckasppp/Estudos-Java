@@ -1,18 +1,12 @@
-## Getting Started
+## Password Generator
+#### A Java password generator project creates secure and random passwords that can be used to protect online accounts, files, or any other resource that requires security. This program typically allows the user to specify complexity criteria, such as:
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+<!-- > - Password length -->
+> - Inclusion of uppercase and lowercase letters
+> - Inclusion of numbers
+> - Inclusion of special characters
 
-## Folder Structure
-
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+<!-- <h4 aling="left">About the Password Generator:</h4>
+<p align="justify">
+The program uses Java libraries to generate passwords that meet these criteria, ensuring the creation of robust and hard-to-crack passwords. It is a useful tool for enhancing the digital security of users and systems.
+</p> -->
