@@ -15,23 +15,22 @@ public class Paciente {
         return this.peso/(this.altura*this.altura);
     }
 
-    public void diagnostico(){
+    public String diagnostico(){
         if(calcularIMC() < 16) {
-            System.out.println("Baixo peso muito grave");
+            return "Baixo peso muito grave";
         } else if(calcularIMC() >= 16 && calcularIMC() < 17) {
-            System.out.println("Baixo peso grave");
+            return "Baixo peso grave";
         } else if(calcularIMC() >= 17 && calcularIMC() < 18.50) {
-            System.out.println("Baixo peso");
+            return "Baixo peso";
         } else if(calcularIMC() >= 18.5 && calcularIMC() < 25) {
-            System.out.println("Peso normal");
+            return "Peso normal";
         } else if(calcularIMC() >= 25 && calcularIMC() < 30) {
-            System.out.println("Sobrepeso");
+            return "Sobrepeso";
         } else if(calcularIMC() >= 30 && calcularIMC() < 35) {
-            System.out.println("Obesidade grau I");
+            return "Obesidade grau I";
         } else if(calcularIMC() >= 35 && calcularIMC() < 40) {
-            System.out.println("Obesidade grau II");
-        } else {
-            System.out.println("Obesidade grau III (obesidade mórbida)");
+            return "Obesidade grau II";
         }
+        return "Obesidade grau III (obesidade mórbida)";
     }
 }
