@@ -10,6 +10,10 @@ public class Pizza {
         contabilizaIngrediente(ingrediente);
     }
 
+    public static void zerarIgredientes(Pizza p) {
+        p.ingredientes.clear();
+    }
+
     public Double getPreco() {
         if (ingredientes.size() <= 2)
             return 15.0;
