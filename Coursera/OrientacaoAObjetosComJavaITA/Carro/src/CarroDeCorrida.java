@@ -23,13 +23,13 @@ public abstract class CarroDeCorrida {
         this.velocidade = novaVelocidade;
     }
 
-    // public int getPotencia() {
-    //     return potencia;
-    // }
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
 
-    // public void setPotencia(int novaPotencia) {
-    //     this.potencia = novaPotencia;
-    // }
+    public String getNome() {
+        return nome;
+    }
 
     public void imprimir() {
         System.out.println("O carro " + nome + " está a velocidade de " + velocidade + "km/h.");
